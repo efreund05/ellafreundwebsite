@@ -187,6 +187,15 @@ h3 {
   padding: 1.75rem;
 }
 
+.profile-photo {
+  width: 100%;
+  display: block;
+  border-radius: calc(var(--radius) - 6px);
+  margin-bottom: 1.25rem;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 .hero-card ul,
 .detail-list,
 .timeline {
